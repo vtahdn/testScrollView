@@ -12,6 +12,8 @@
 		DEC12FBB1F04E0E20047CA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC12FB91F04E0E20047CA5A /* Main.storyboard */; };
 		DEC12FBD1F04E0E20047CA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC12FBC1F04E0E20047CA5A /* Assets.xcassets */; };
 		DEC12FC01F04E0E20047CA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC12FBE1F04E0E20047CA5A /* LaunchScreen.storyboard */; };
+		DEC12FC81F04E1020047CA5A /* shop1-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEC12FC71F04E1020047CA5A /* shop1-0.jpg */; };
+		DEC12FCA1F04E1BD0047CA5A /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC12FC91F04E1BD0047CA5A /* ScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DEC12FBC1F04E0E20047CA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEC12FBF1F04E0E20047CA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEC12FC11F04E0E20047CA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC12FC71F04E1020047CA5A /* shop1-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shop1-0.jpg"; sourceTree = "<group>"; };
+		DEC12FC91F04E1BD0047CA5A /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		DEC12FB41F04E0E20047CA5A /* testScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				DEC12FC71F04E1020047CA5A /* shop1-0.jpg */,
 				DEC12FB51F04E0E20047CA5A /* AppDelegate.swift */,
 				DEC12FB71F04E0E20047CA5A /* ViewController.swift */,
+				DEC12FC91F04E1BD0047CA5A /* ScrollView.swift */,
 				DEC12FB91F04E0E20047CA5A /* Main.storyboard */,
 				DEC12FBC1F04E0E20047CA5A /* Assets.xcassets */,
 				DEC12FBE1F04E0E20047CA5A /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			files = (
 				DEC12FC01F04E0E20047CA5A /* LaunchScreen.storyboard in Resources */,
 				DEC12FBD1F04E0E20047CA5A /* Assets.xcassets in Resources */,
+				DEC12FC81F04E1020047CA5A /* shop1-0.jpg in Resources */,
 				DEC12FBB1F04E0E20047CA5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			files = (
 				DEC12FB81F04E0E20047CA5A /* ViewController.swift in Sources */,
 				DEC12FB61F04E0E20047CA5A /* AppDelegate.swift in Sources */,
+				DEC12FCA1F04E1BD0047CA5A /* ScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
